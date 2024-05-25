@@ -22,7 +22,7 @@ image_extensions = [
     ".sr2", ".arw", ".dng", ".raf", ".rw2", ".pef", ".3fr",
     ".ptx", ".srw", ".x3f", ".jpf", ".jp2", ".j2k", ".jpx",
     ".jpm", ".pgm", ".ppm", ".pbm", ".pnm", ".hdr", ".exr",
-    ".cgm", ".svgz"
+    ".cgm", ".svgz", ".avif"
 ]
 
 # Supported document types
@@ -42,7 +42,7 @@ data_extensions = [
 
 # Supported executables and downloader file types
 executable_extensions = [
-    ".exe", ".dmg"
+    ".exe", ".dmg", ".zip"
 ]
 
 def redundancy_checker(destination, name):
